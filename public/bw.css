@@ -1,0 +1,88 @@
+body {
+    background:#F9D8D8 url("/important/creaturebg.png");
+    font-family: Trebuchet MS, sans-serif;
+	  font-variant: small-caps;
+    font-size: 14px;
+    text-align: center;
+    
+    }
+
+content {
+    background-color: none;
+    padding: 0px;
+    margin: 100px;
+    float: center;
+    width: auto;
+    height: 100%;
+    position: relative;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+    h2 {
+      text-align: center;
+      font-size: 50px;
+      color: black;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+    }
+
+  a {
+    color: #aa0707;
+    
+    }
+
+    #more {
+    display: none;
+  }
+
+  #more2 {
+    display: none;
+  }
+
+
+    .main-box {
+      background: #c9c9c9;
+      color: #070304;
+      max-height: 650px;
+      overflow: auto;
+      margin: 20%;
+      margin-top: 2%;
+      margin-bottom: 8%;
+      padding: 3%;
+      padding-top: 1%;
+      border: 5px inset #555454;
+  
+      }
+  
+     .gallery {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: #000000 outset 2px;
+    background: transparent;
+    margin: 0px 20px 20px 0px;
+  }
+    
+  .gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px dashed #000000;
+    background: #d5d5d5;
+    margin: 2px;
+  }
+    
+  .gallery img:hover {
+    object-fit: contain;
+  }
+
+    /* Start https://www.cursors-4u.com */ * 
+	{cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1107.cur), auto !important;}
+  /* End https://www.cursors-4u.com */

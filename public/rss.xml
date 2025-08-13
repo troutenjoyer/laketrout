@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+		<title>trout thoughts</title>
+		<link>https://trout.nekoweb.org</link>
+		<description>rawr</description>
+
+		<item>
+			<title>update 1</title>
+			<link>https://trout.nekoweb.org/j/0218.html</link>
+			<guid>https://trout.nekoweb.org/j/0218.html</guid>
+			<description>test of my ability to make an rss feed</description>
+			<pubDate>Tue, 18 Feb 2025 12:18:33 +0600</pubDate>
+		</item>
+
+		<item>
+			<title>BIRTHDAY POST</title>
+			<link>https://trout.nekoweb.org/j/0306.html</link>
+			<guid>https://trout.nekoweb.org/j/0306.html</guid>
+			<description>little review of how my birthday went</description>
+			<pubDate>Thu, 06 Mar 2025 06:46:33 +0600</pubDate>
+		</item>
+
+		<item>
+			<title>UPDATE 3 OOPS</title>
+			<link>https://trout.nekoweb.org/j/0422.html</link>
+			<guid>https://trout.nekoweb.org/j/0422.html</guid>
+			<description>im back teehee and yeehaw</description>
+			<pubDate>Tue, 22 Apr 25 00:05:31 +0600</pubDate>
+		</item>
+
+		<item>
+			<title>update 4</title>
+			<link>https://trout.nekoweb.org/j/0707.html</link>
+			<guid>https://trout.nekoweb.org/j/0707.html</guid>
+			<description>pre treatment reflection</description>
+			<pubDate>Mon, 07 Jul 2025 11:21:16 -0500</pubDate>
+		</item>
+
+	</channel>
+</rss>

@@ -1,0 +1,103 @@
+body {
+    background:#F9D8D8 url("/important/creaturebg.png");
+    font-family: Trebuchet MS, sans-serif;
+	  font-variant: small-caps;
+    font-size: 14px;
+    }
+
+  #rss {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 400px;
+    border: 2px dashed #C94A4A;
+    padding: 10px;
+    background: #F9D8D8;
+    color: #000000;
+    font-family: Trebuchet MS, sans-serif;
+	  font-variant: small-caps;
+    }
+    
+  #rss a {
+      color: #CF7777;
+      text-decoration: none;
+    }
+    
+  #rss h3 a {
+      color: #DC9292;
+    }
+    
+  #rss h3 {
+      margin: 5px;
+    }
+    
+  #rss h4 {
+      margin: 10px 4px;
+    }
+    
+  #rss p {
+      padding: 0;
+      margin: 0px 0px 0px 20px;
+    }
+    
+  #rss div a {
+      font-size: 10px;
+    }
+    
+  .top-box {
+    background: #F9D8D8;
+    color: #E59F9F;
+    max-height: 400px;
+    overflow: auto;
+    margin: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 3%;
+    padding-top: 1%;
+    border: 5px inset #C94A4A;
+    }
+    
+  .main-box {
+    background: #F9D8D8;
+    color: #000000;
+    max-height: 800px;
+    overflow: auto;
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    padding: 3%;
+    padding-top: 1%;
+    border: 5px inset #C94A4A;
+
+    }
+    
+  a {
+    color: #CE5A5A;
+    
+    }
+    
+
+  h1 {
+    text-align: center;
+    padding: 0%;
+    color: black;
+    }
+    
+  .hh {
+    font-family: Trebuchet MS, sans-serif;
+	  font-variant: small-caps;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    margin-top: 1.5%;
+    font-size: 30px;
+    color: #CF7777;
+    }
+
+
+
+
+    /* Start https://www.cursors-4u.com */ * 
+	{cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1107.cur), auto !important;}
+  /* End https://www.cursors-4u.com */

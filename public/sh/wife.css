@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background: #F9D8D8 url("/important/wifebg.png"); /*Replace with your own background*/
+    background-repeat: repeat-x repeat-y;
+    background-position:right top;
+    background-attachment: fixed;
+    font-family: Trebuchet MS, sans-serif;
+	font-variant: small-caps;
+    font-size: 14px;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.imgwrapper{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+ 
+.img{
+    align-self: center;
+    width: 100%;
+    min-width: 200px;
+}
+ 
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    flex-basis: 0;
+    justify-content: space-between;
+    gap: 1rem;
+}
+ 
+.box{
+    display: flex;
+    gap: 1rem;
+    
+}
+ 
+.boximg{
+    align-self: center;
+    width: 200px;
+}
+ 
+.content{
+    flex-grow: 6;
+    flex-basis: 0;
+    min-width: 220px;
+    height: 220px;
+    border: 2px solid #6B195D;
+    padding: 1rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #F9D8D8
+}
+ 
+.headers{
+    font-size: 20px;
+    text-align: right;
+    font-weight: normal;
+    font-family: Trebuchet MS, sans-serif;
+	font-variant: small-caps;
+    border-bottom: 2px dotted #6B195D;
+}
+
+.gallery {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: #CE3596 dashed 2px;
+    background:#CAC8D4;
+    margin: 0px 20px 20px 0px;
+  }
+    
+    .gallery img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 2px solid #6B195D;
+        background: #CAC8D4;
+        margin: 2px;
+    }
+    
+    .gallery img:hover {
+        object-fit: contain;
+    }
+ 
+a{
+    text-decoration: none;
+    color: #280632;
+}
+ 
+a:visited{
+    color: #6B195D;
+}
+ 
+a:hover{
+    font-style: italic;
+}
+ 
+a:active{
+    font-style: italic;
+    font-weight: bold;
+}
+ 
+::-webkit-scrollbar{
+    width: 6px; 
+}
+ 
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #280632;
+}
+
+  .image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px dashed #b11d25;
+    background: #ede1d4;
+    margin: 2px;}
+      
+  .image img:hover {
+   object-fit: contain;
+  
+  }
+ 
+#credit{
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+}
+ 
+@media(max-width:730px){
+    .box img{
+        display: none;
+    }
+}
+ 
+@media(max-width:515px){
+    .container{
+        flex-direction: column;
+    }
+    .img{
+        width: 40%;
+        min-width: 40%;
+        margin: 0 auto;
+}
+}
+
+/* Start https://www.cursors-4u.com */ * 
+	{cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1107.cur), auto !important;}
+/* End https://www.cursors-4u.com */
+ 

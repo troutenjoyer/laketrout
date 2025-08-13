@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>artzone</title>
+	<meta name="description" content="trout fishing in wisconsin" />
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/bw.css" rel="stylesheet" type="text/css" media="all">
+
+  </head> 
+
+  <h2>art gallery</h2>
+
+  <body>
+        
+    <div class=main-box>
+        <section>
+          <p>
+            this is a collection of my artwork! you can see full res images on <a href="https://www.deviantart.com/isopodclown"><i>deviantart</i></a>.<br>
+            <a href="https://trout.nekoweb.org/home.html">go home?</a>
+          </p>
+          <img src="/asstd/linedog.gif">
+          <h3>traditional</h3>
+          <p>
+            <span id="dots"><img src="/art/sprite2.png"></span><span id="more">
+              <a href="https://www.deviantart.com/isopodclown/art/my-wife-1163203780" target="_blank"><img src="/art/hoodiewife.jpg"></a>
+              <a href="https://www.deviantart.com/isopodclown/art/new-fallout-mods-1163203187" target="_blank"><img src="/art/falloutmods.jpg"></a>
+              <a href="https://www.deviantart.com/isopodclown/art/Lover-1163204774" target="_blank"><img src="/art/lover.jpg"></a>
+              <img src="/art/evil.jpg">
+              <img src="/art/mortaromi.jpg">
+              <img src="/art/delta.jpg">
+            </span><br>
+            <button onclick="readmore()" id="myBtn">view</button>
+          </p>
+          <img src="/asstd/linedog.gif">
+          <h3>digital</h3>
+          <p>
+            <span id="meow"><img src="/art/sprite2.png"></span><span id="more2">
+              <a href="https://www.deviantart.com/isopodclown/art/dreams-1163206025" target="_blank"><img src="/art/dreams.jpg"></a>
+              <a href="https://www.deviantart.com/isopodclown/art/thing-1165223540" target="_blank"><img src="/art/thing.jpg"></a>
+              <a href="https://www.deviantart.com/isopodclown/art/miku-1165224112" target="_blank"><img src="/art/miiku.png"></a>
+              <img src="/art/squid.png">
+            </span><br>
+            <button onclick="readmore2()" id="btn2">view</button>
+          </p>
+        </section>
+    </div> 
+    
+    
+  <script>
+    function readmore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      moreText.classList.add("gallery");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "view";
+        moreText.style.display = "none";
+      } 
+      else {
+        dots.style.display = "none";
+        btnText.innerHTML = "hide";
+       moreText.style.display = "inline";
+      }
+    } 
+
+    function readmore2() {
+      var meow = document.getElementById("meow");
+      var moreText = document.getElementById("more2");
+      moreText.classList.add("gallery");
+      var btnText = document.getElementById("btn2");
+
+      if (meow.style.display === "none") {
+        meow.style.display = "inline";
+        btnText.innerHTML = "view";
+        moreText.style.display = "none";
+      } 
+      else {
+        meow.style.display = "none";
+        btnText.innerHTML = "hide";
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	background: #000;
+	color: rgb(255, 0, 68);
+    font-family: Trebuchet MS, sans-serif;
+	font-variant: small-caps;
+    font-size: 14px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.page {
+	padding: 24px;
+}
+
+.page h1:first-child {
+	margin-top: 0;
+}
+
+.header-image {
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+.wrapper {
+	margin: auto;
+	margin-top: 24px;
+	width: 753px;
+}
+
+.menu {
+	text-align: center;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+
+.menu a {
+	color: rgb(255, 0, 68);
+}
+
+.gallery {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: rgb(255, 0, 85) outset 2px;
+    background:rgb(224, 184, 184);
+    margin: 0px 20px 20px 0px;
+}
+    
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px dashed rgb(255, 0, 85);
+    background: rgb(224, 184, 184);
+    margin: 2px;
+}
+
+.gallery img:hover {
+   object-fit: contain;
+  
+}
+
+.main {
+	height: 480px;
+	width: 753px;
+	background-image: url('/important/bbg.png');
+	position: relative;
+}
+
+.main iframe {
+	border: none;
+	border: none;
+	position: absolute;
+	top: 35px;
+	left: 7px;
+	width: 739px;
+	height: 439px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 16px;
+}
+
+h1 {
+	border-bottom: 1px outset rgb(252, 56, 108);
+}
+
+h2 {
+	border-bottom: 1px dotted rgb(252, 56, 108);
+}
+
+a {
+	color: rgb(255, 60, 112);
+}

@@ -1,0 +1,169 @@
+body{
+    background:#c3e6c3 url("/important/greengrid.jpg");
+    font-family: Trebuchet MS, sans-serif;
+	font-variant: small-caps;
+    font-size: 14px;
+    text-align: center;
+}
+ 
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 800px;
+margin: 0 auto;
+border: 1px solid #17ea17;
+padding: 3px;
+}
+ 
+#box{
+width: 800px;
+background-color: #c3e6c3;
+color: #000;
+border: 1px solid #17ea17;
+}
+ 
+#header{
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #17ea17;
+background-image: linear-gradient(to right, #17ea17, #0b6c0b);
+color: #fff;
+letter-spacing: 3px;
+}
+ 
+#header h1{
+margin: 0px;
+}
+ 
+#side{
+float: left;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
+}
+ 
+.sidebox{
+border: 1px solid #17ea17;
+margin: 0px 0px 5px 0px;
+}
+ 
+.sidecontent{
+padding: 0px 0px 0px 5px;
+color: #000000;
+font-size: 17px;
+letter-spacing: 1px;
+}
+ 
+.sidecontent ul, li{
+margin: 0px;
+list-style-type: none;
+padding-left: 0px;
+}
+ 
+a{
+text-decoration: none;
+color: #0b6c0b;
+}
+ 
+a:visited{
+color: #11ac11;
+}
+ 
+a:hover{
+text-shadow: 0px 0px 2px #053305;
+}
+ 
+#scrollcontainer{
+padding: 5px;
+}
+ 
+#scrolly{
+overflow: scroll;
+overflow-x: hidden;
+width: 110px;
+height:110px;
+border: 1px solid #17ea17;
+margin: 0 auto;
+text-align: center;
+}
+ 
+#scrollyheader{
+margin: 0px;
+border-bottom: 1px dotted #17ea17;
+}
+ 
+#main{
+float: right;
+width: 624px;
+overflow: hidden;
+padding: 0px 10px 5px 0px;
+}
+ 
+.mainboxes{
+border: 1px solid #17ea17;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+ 
+.subheader{
+background-image: linear-gradient(to right, #17ea17, #0b6c0b);
+border-bottom: 1px solid #0b6c0b;
+padding: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+ 
+.subheader h3{
+margin: 0px;
+}
+ 
+.mainboxescontent{
+padding: 0px 15px 0px 15px;
+color: #000000;
+font-size: 17px;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: #aeebae;
+    border: 1px solid #0b6c0b;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+ 
+#footer{
+clear: both;
+padding: 3px;
+border-top: 1px solid #17ea17;
+background-image: linear-gradient(to right, #17ea17, #0b6c0b);
+color: #fff;
+font-size: 14px;
+}
+ 
+#footer p{
+margin: 0px;
+}
+ 
+::-webkit-scrollbar{
+width: 8px; 
+}
+ 
+::-webkit-scrollbar-track{
+background-color: #fff7fb;
+}
+ 
+::-webkit-scrollbar-thumb{
+background-color: #17ea17;  
+}
+ 
+#credit{
+font-size: 12px;
+position: fixed;
+bottom: 0;
+right: 0;
+}
