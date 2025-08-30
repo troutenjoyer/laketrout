@@ -3,7 +3,7 @@ body {
     font-family: Trebuchet MS, sans-serif;
 	  font-variant: small-caps;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
     text-align: center;
     
     }
@@ -49,7 +49,7 @@ content {
 
     .main-box {
       background: #000000;
-      color: #070304;
+      color: #ffffff;
       max-height: 650px;
       overflow: auto;
       margin: 20%;
