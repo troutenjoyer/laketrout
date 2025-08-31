@@ -3,20 +3,20 @@ background:#444 url(/important/bowlbg.jpg) fixed;
 font-family: Trebuchet MS, sans-serif;
 font-variant: small-caps;
 font-size: 9px;
-color:#666;
+color:#22111B;
 letter-spacing: 1px;
 line-height:10px;}
              
   
 a:link, a:visited, a:active { 
-color:#222;text-decoration:none;}
+color:#003D7B;text-decoration:none;}
 a:hover {
-color:#ddd;}
+color:#86A6B3;}
   
 
-      b {color:#444;font-weight:bold;}
-      i {font-style:italic;color:#aaa;}
-      u {color:#888;text-decoration:underline;}
+      b {color:#22111B;font-weight:bold;}
+      i {font-style:italic;color:#432F62;}
+      u {color:#432F62;text-decoration:underline;}
   
   img {border:0;}
   textarea {font:9px Trebuchet MS, sans-serif;letter-spacing:1px;}
@@ -127,9 +127,9 @@ color:#ddd;}
     box-shadow: none;}
   
    
-.header {background:#aaa url();color:#BCACCC;text-align:center;border-top-right-radius:30px;border-top-left-radius:30px;border:2px solid #444;border-bottom:0px;}
+.header {background:#C6678B url();color:#E8D4D2;text-align:center;border-top-right-radius:30px;border-top-left-radius:30px;border:2px solid #22111B;border-bottom:0px;}
 
-.header a {font-family: 'silkscreen', monospace;font-size:20px;text-decoration:underline;color:#fff;letter-spacing:3px;text-shadow: 1px 1px 2px black;}
+.header a {font-family: trebuchet ms, sans-serif;font-size:20px;text-decoration:underline;color:#ef0091;letter-spacing:3px;text-shadow: 1px 1px 2px black;}
 
   
 .navigation {background:#FFf;margin-top:0px;border-top:1px solid #111;border-bottom:1px solid #111;}
@@ -146,7 +146,7 @@ font:normal 9px trebuchet MS, sans-serif;
 line-height:10px;
 text-transform:uppercase;
 letter-spacing:1px;
-color:#444;
+color:#ef0091;
 width:75px;}
 
 .navigation a:hover {
@@ -155,18 +155,18 @@ color:#000;}
   
 .icon {margin-bottom:4px;margin-top:4px;}
 
-.marquee {background:#444;color:#ddd;font:9px trebuchet ms, sans-serif;padding:2px;}
+.marquee {background:#22111B;color:#e8d4d2;font:9px trebuchet ms, sans-serif;padding:2px;}
 
 .leftside {background: #FFF; border-right: 2px solid #444;}
 .content {background: #FFF; border-right: 2px solid #444;}
 .rightside {background: #FFF;}
-.footer {background: #606060;color:#ccc; border-top:1px solid #111;
+.footer {background: #22111B;color:#e8d4d2; border-top:1px solid #111;
  border-bottom-left-radius:10px;border-bottom-right-radius:10px;line-height:20px;}
 .footer a {color:#fff;}
   
-.scrollbox {height:90px;border:1px solid #888;border-right:0px;padding:6px;margin-bottom:3px;overflow:scroll;overflow-x:hidden;}
+.scrollbox {height:90px;border:1px solid #432f62;border-right:0px;padding:6px;margin-bottom:3px;overflow:scroll;overflow-x:hidden;}
   
-.title {font: 10px trebuchet ms, sans-serif;color:#999;letter-spacing:1px;text-align:left;padding:0px;padding-left:4px;
+.title {font: 10px trebuchet ms, sans-serif;color:#ef0091;letter-spacing:1px;text-align:left;padding:0px;padding-left:4px;
 margin-bottom:4px;text-transform:uppercase;background:#eee;border-bottom:1px solid #ddd;}
   
 * {cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(https://cur.cursors-4u.net/anime/ani-12/ani1136.gif), auto !important;}
